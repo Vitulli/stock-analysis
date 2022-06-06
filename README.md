@@ -8,25 +8,25 @@
 #####  To address the concerns of investment directly generally, the year 2017 showed remarkable gains for almost all stocks.  TERP was the only that had losses for the year at -7.2% whereas most other companies had double and triple gains.
 
 ###### 2017 Green Energy Gains and Losses
-![](Orig_VBA_Script_Formatted_2017.png)
+![](OrigVBAScriptFormatted2017.png)
 
 #####  Despite the terrific gains demonstrated in 2017 almost all stock tumbled severally in 2018.  Only ENPH and RUN had gains for 2018 but their respective gains were still fantastic.
 
 ###### 2018 Green Energy Gains and Losses
-![](Orig VBA Script Formatted 2018.png)
+![](OrigVBAScriptFormatted2018.png)
 
 #####  Overall, in recommending a stock for purchase the simple statement would be only to buy ENPH and RUN as they were the only two stocks that had positive gains for both years.  This is a very simple analysis and many of the stocks still retain a two-year gain over initial purchase.  Again, though, the safe bet would be the two stocks mentioned above.
 
 ##### To conduct this analysis a tool was created with two different methodologies and how these operate create large discrepancies in their execution times.  These will be discussed at length in the summary.  Just note that the speeds for execution eclipse that of the original script.
 
 ##### 2017 Original VBA Script
-![]( Orig VBA Script Analysis and Time to Run.png)
+![](OrigVBAScriptAnalysisandTimetoRun.png)
 ##### 2018 Original VBA Script
-![](Orig VBA Script Analysis and Time to Run 2018.png)
+![](OrigVBAScriptAnalysisandTimetoRun2018.png)
 ##### 2017 Refactored VBA Script
-![]( Refact VBA Script Analysis and Time to Run.png)
+![](RefactVBAScriptAnalysisandTimetoRun.png)
 ##### 2018 Refactored VBA Script
-![](Refact VBA Script Analysis and Time to Run 2018.png)
+![](RefactVBAScriptAnalysisandTimetoRun2018.png)
 
 ## Summary
 ##### As can be seen from the data sets above refactoring the code made a tremendous difference in the amount of run time for the script and while this may seem unimportant if the data set is expanded for more years or companies the run time could become quite large.  This is also significant because the timer in my code is only set to run during the analysis loop whereas the timer counts the entire code set for the refactored version.
