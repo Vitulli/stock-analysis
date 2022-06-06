@@ -1,16 +1,16 @@
 # Stock Analysis and Tool
 ##  Overview of Project
-##### There is great interest for investment in today’s green energy market.  With that in mind the question was posed “What green energy stock show mass appeal for investment and strong returns?”
+##### There is great interest for investment in today’s green energy market.  With that in mind the question was posed “What green energy stock show mass appeal for investment and strong returns?”.
 
-#### To fulfill this request a tool was created to quickly shuffle through to years of green energy stocks for the years 2017 and 2018 for each day of active trading.  The data set had Ticker Symbol, Date of Trade, Opening Price, Closing Price, the Highs and Lows of the day, Adjusted Close, and lastly Volume Traded for the day.
+##### To fulfill this request a tool was created to quickly shuffle through two years of green energy stocks for the years 2017 and 2018 for each day of active trading.  The data set had Ticker Symbol, Date of Trade, Opening Price, Closing Price, the Highs and Lows of the day, Adjusted Close, and lastly Volume Traded for the day.
 
 ## Results, Findings, and Comments
-#####  To address the concerns of investment directly generally, the year 2017 showed remarkable gains for almost all stocks.  TERP was the only that had losses for the year at -7.2% whereas most other companies had double and triple gains.
+#####  To address the concerns of investment directly and generally, the year 2017 showed remarkable gains for almost all stocks.  TERP was the only company that had losses for the year at -7.2% whereas most other companies had double and triple digit gains.
 
 ###### 2017 Green Energy Gains and Losses
 ![](OrigVBAScriptFormatted2017.png)
 
-#####  Despite the terrific gains demonstrated in 2017 almost all stock tumbled severally in 2018.  Only ENPH and RUN had gains for 2018 but their respective gains were still fantastic.
+#####  Despite the terrific gains demonstrated in 2017 almost all stocks tumbled severely in 2018.  Only ENPH and RUN had gains for 2018 but their respective gains were still fantastic.
 
 ###### 2018 Green Energy Gains and Losses
 ![](OrigVBAScriptFormatted2018.png)
@@ -24,7 +24,7 @@
 ##### 2018 Original VBA Script
 ![](OrigVBAScriptAnalysisandTimetoRun2018.png)
 ##### 2017 Refactored VBA Script
-![](RefactVBAScriptAnalysisandTimetoRun.png)
+![](RefactVBAScriptAnalysisandTimetoRun2017.png)
 ##### 2018 Refactored VBA Script
 ![](RefactVBAScriptAnalysisandTimetoRun2018.png)
 
@@ -33,7 +33,7 @@
 
 ##### The refactored code demonstrates roughly a 10 times improvement over the original script for 2017 and 2018.  Again, if this code is run to a larger scale this will become important.
 
-#####  The fundamental difference between these two pieces of code is the way it loops through the data set.  In the first script, the code loops through the data looking for a predetermined sticker symbol  and acts on its instructions during the loop.  The number of iterations through the dataset is solely dependent on the number of company’s ticker symbols are being sought.
+#####  The fundamental difference between these two pieces of code is the way it loops through the data set.  In the first script, the code loops through the data looking for a predetermined sticker symbol  and acts on its instructions during the loop.  The number of iterations through the dataset is solely dependent on the number of company’s ticker symbols that are being sought.
 
 ##### The refactored counters this method by stopping at each row and comparing it to the array and acting on the instructions if a symbol match is found.  In this manner the code spends more time at each row conducting operations but only loops once through the data set.
 
