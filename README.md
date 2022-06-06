@@ -8,7 +8,7 @@
 #####  To address the concerns of investment directly generally, the year 2017 showed remarkable gains for almost all stocks.  TERP was the only that had losses for the year at -7.2% whereas most other companies had double and triple gains.
 
 ###### 2017 Green Energy Gains and Losses
-![](Orig VBA Script Formatted 2017.png)
+![](Orig_VBA_Script_Formatted_2017.png)
 
 #####  Despite the terrific gains demonstrated in 2017 almost all stock tumbled severally in 2018.  Only ENPH and RUN had gains for 2018 but their respective gains were still fantastic.
 
