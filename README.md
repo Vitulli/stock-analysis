@@ -33,10 +33,10 @@
 
 ##### The refactored code demonstrates roughly a 6.5 to 8.5 times improvement over the original script for 2017 and 2018.  Again, if this code is run to a larger scale this will become important.
 
-#####  To address the time savings the fundamental difference between these two pieces of code is the way it loops through the dataset, writes to excel, and formats.  In the first script, the code loops through the entire dataset looking for a predetermined sticker symbol and acts on the codes instructions during the loop.  The script then writes to excel cells, for that ticker symbol, individually or one by one.
+#####  To address the time savings the fundamental difference between these two pieces of code is the way it loops through the dataset, writes to excel, and formats.  In the first script, the code loops through the entire dataset looking for a predetermined sticker symbol and acts on the code's instructions during the loop.  The script then writes to excel cells, for that ticker symbol, individually or one by one.
 
-##### The refactored counters this method by looping throught the dataset and storing the requested values in array.  The biggest difference is not writing values to excel until the end of the code and looping through the stored values in their respective arrays.  It seems that writing to cell is the biggest time expenditure in the program and leaving this procedure to the end creates huge time cycle time savings.
+##### The refactored counters this method by looping throught the dataset and storing the requested values in array.  The biggest difference is not writing values to excel until the end of the data collection code and then writing the stored values in their respective arrays.  It seems that writing to cell, as next to last instruction set, is the biggest time expenditure in the program and leaving this procedure to the end and after data collection creates huge time cycle time savings.
 
 ##### One last point of observation about these tools is that they both depend on a clean dataset to operate.  The tool is dependent on the sticker symbols being grouped together and in order.   Therefore, this code will only operate on a well managed dataset. 
 
-##### Lastly, the original script has some of my own interpretations to it.  I used a button for each subroutine and just to play around with the feature of VBA and hence maybe different from the original request.
+##### Lastly, the original script has some of my own interpretations to it.  I used a button for each subroutine and just to experiment with the features of VBA and hence maybe different from the original request.
