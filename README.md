@@ -24,9 +24,9 @@
 #### 2018 Original VBA Script
 ![](OrigVBAScriptAnalysisandTimetoRun2018.png)
 #### 2017 Refactored VBA Script
-![](RefactVBAScriptAnalysisandTimetoRun2017.png)
+![](RefactVBAScriptAnalysisandTimetoRun2017)
 #### 2018 Refactored VBA Script
-![](RefactVBAScriptAnalysisandTimetoRun2018.png)
+![](RefactVBAScriptAnalysisandTimetoRun2018)
 
 ## Summary
 ##### As can be seen from the data sets above refactoring the code made a tremendous difference in the amount of run time for the script and while this may seem unimportant if the data set is expanded for more years or companies the run time could become quite large.  This is also significant because the timer in my original code is only set to run during the analysis loop whereas the timer counts the entire code set for the refactored version.
